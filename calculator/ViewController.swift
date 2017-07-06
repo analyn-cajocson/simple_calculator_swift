@@ -17,6 +17,11 @@ class ViewController: UIViewController {
         label.text = label.text!  + String(sender.tag-1)
         numberOnScreen = Double(label.text!)!
     }
+    
+    @IBAction func buttons(_ sender: UIButton) {
+    }
+    
+     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
